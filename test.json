@@ -1,0 +1,76 @@
+{
+	"user" : {
+		"dane" :  
+		{
+			"id" : "1",
+			"imie" : "Marian",
+			"nazwisko" : "Szymczak",
+			"badanie" :
+			{
+				"data" : "Data badania",
+				"pomiar1" :
+				{
+					"puls1" : "Puls 1",
+					"natlenienie1" : "Natlenienie krwi 1",
+					"ciśnienie1" : 
+					{
+						"skurczowe" : "Ciśnienie skurczowe 1",
+						"rozkurczowe" : "Ciśnienie rozkurczowe 1"
+					},
+					"dystans" : "Dystans ",
+					"czas" : "Czas ćwiczeń",
+					"puls2" : " Puls 2",
+					"natlenienie2" : "Natlenienie krwi 2",
+					"ciśnienie2" : 
+					{
+						"skurczowe" : "Ciśnienie skurczowe 2",
+						"rozkurczowe" : "Ciśnienie rozkurczowe 2"
+					}
+				},
+
+				"pomiar2" :
+				{
+					"puls1" : "",
+					"natlenienie1" : "",
+					"ciśnienie1" : 
+					{
+						"skurczowe" : "",
+						"rozkurczowe" : ""
+					},
+					"dystans" : "",
+					"czas" : "",
+					"puls2" : "",
+					"natlenienie2" : "",
+					"ciśnienie2" : 
+					{
+						"skurczowe" : "",
+						"rozkurczowe" : ""
+					}
+				},
+
+				"pomiar3" :
+				{
+					"puls1" : "",
+					"natlenienie1" : "",
+					"ciśnienie1" : 
+					{
+						"skurczowe" : "",
+						"rozkurczowe" : ""
+					},
+					"dystans" : "",
+					"czas" : "",
+					"puls2" : "",
+					"natlenienie2" : "",
+					"ciśnienie2" : 
+					{
+						"skurczowe" : "",
+						"rozkurczowe" : ""
+					}
+				}
+
+			}
+			
+		}
+			
+	}
+}

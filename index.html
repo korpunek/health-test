@@ -1,0 +1,67 @@
+<!doctype html>
+<HTML>
+
+  <HEAD>
+
+	  <title>Health test</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ 
+    <meta name="apple-mobile-web-app-status-bar-style" content="default">
+    
+    <link href="logo32.ico" rel="shortcut icon" type="image/x-icon" />
+
+    <link rel="manifest" href="manifest.json">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="img/hti_57.png" />
+    <link rel="apple-touch-icon" sizes="72x72" href="img/hti_72.png" />
+    <link rel="apple-touch-icon" sizes="144x144" href="img/hti_144.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="img/hti_180.png">
+    <link rel="icon" type="image/png" href="img/hti_192.png" sizes="192x192">
+ 
+  
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <script>
+
+      function setFocusToTextBox()
+      {
+        document.getElementById("nazwa").focus();
+      }
+
+    </script>
+	
+  </HEAD>
+
+  <BODY text=#000000 bgColor=#ffffff leftMargin=0 topMargin=0 marginwidth="0" marginheight="0"; style="background-image: url('img/n11.jpg'); background-size:cover; background-attachment:fixed; background-repeat: no-repeat;">
+
+    <center>
+    <br><br><br>
+      
+    <div style="width:300px; background: #ffffff; border: 1px solid gray; border-radius: 14px; padding: 1ex;">
+    
+      <img src="img/hti.png" width="100"><br><br>  
+
+      <form NAME="forma" METHOD="POST" ACTION="verification.php">
+        <div class="form-group">
+          <label for="exampleInputNazwa">Name</label>
+          <input type="text" NAME="name" class="form-control" id="exampleInputNazwa" placeholder="Name" autofocus />
+          <br>
+          <label for="exampleInputHaslo">Password</label>
+          <input type="password"  NAME="pass" class="form-control" id="exampleInputHaslo" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-warning">Logon</button>
+      </form>
+
+      <br><br>
+ 
+      <img src='img/n3.png' width="259" style="border-top-left-radius: 5px; border-top-right-radius: 5px; border-bottom-right-radius: 5px; border-bottom-left-radius: 5px;">
+      
+    </div>
+
+    <br>
+  
+  </BODY>
+
+</HTML>
